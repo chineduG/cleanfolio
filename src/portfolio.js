@@ -1,19 +1,20 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://ChineduG.github.io/portfolio',
+  title: 'SC.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Chinedu Gabriel',
+  role: 'Back-End & Mobile Engineer',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  resume: 'https://drive.google.com/file/d/1bNwwnqSIwAk5qMcKXxuWlmPDLH3edcep/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/chinedu-gabriel-ab411318a/',
+    github: 'https://github.com/chineduG',
+    twitter: 'https://twitter.com/saint_gabriel0'
   },
 }
 
@@ -21,51 +22,60 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Payment Api',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A stripe-payment restful-api',
+    stack: ['NODE.JS', 'EXPRESS', 'MONGODB', 'POSTMAN'],
+    sourceCode: 'https://github.com/chineduG/Stripe-Payment-API',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Flutter Status-Story',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+            'WhatsApp story made with flutter',
+    stack: ['FLUTTER', 'DART', ],
+    sourceCode: 'https://github.com/chineduG/Flutter-Story-App',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    // https://github.com/chineduG/Job-Design-Template
+    name: 'News-api App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'News search api app with flutter',
+    stack: ['FLUTTER', 'DART', ],
+    sourceCode: 'https://github.com/chineduG/Search-News-App',
+    // livePreview: 'https://github.com',
+  },
+  {
+    name: 'Job Design-Template',
+    description:
+            'Job Template made with flutter',
+    stack: ['FLUTTER', 'DART', ],
+    sourceCode: 'https://github.com/chineduG/Flutter-Story-App',
+    // livePreview: 'https://github.com',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Node.js',
+  'Express',
+  'MongoDB',
+  'RestAPI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Flutter',
+  'Dart',
+  'Linux Command Line',
+  'Firebase',
+  'Basic Python',
+  'NFC',
+  // 'Currently Smart-Contracts',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'investorgbriel@mail.com',
 }
 
 export { header, about, projects, skills, contact }
